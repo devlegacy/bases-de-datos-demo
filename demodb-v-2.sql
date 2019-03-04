@@ -1,9 +1,9 @@
 
-DROP DATABASE IF EXISTS cursodb;
+DROP DATABASE IF EXISTS demodb;
 
-CREATE DATABASE IF NOT EXISTS cursodb CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+CREATE DATABASE IF NOT EXISTS demodb CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 
-USE `cursodb`;
+USE `demodb`;
 
 
 DROP TABLE IF EXISTS `clients`;
